@@ -6,9 +6,6 @@ function ChangeDisplayImage(e) {
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
-const btn = document.querySelector('button');
-const overlay = document.querySelector('.overlay');
-
 // Looping through images
 const numberOfImages = 5
 var count = 1 
@@ -26,6 +23,8 @@ while( count <= numberOfImages ) {
 
   count++
 }
-  
 
 // Wiring up the Darken/Lighten button
+
+const btn = document.querySelector('button');
+const overlay = document.querySelector('.overlay');
