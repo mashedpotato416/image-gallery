@@ -11,17 +11,17 @@ Project Brief:<br>
 
 You have been provided with some HTML, CSS and image assets and a few lines of JavaScript code; you need to write the necessary JavaScript to turn this into a working program. The HTML body looks like this:<br>
 
-<!-- <h1>Image gallery example</h1> --><br>
+<h1>Image gallery example</h1>
 
-<!-- <div class="full-img"> --><br>
-  <!-- <img class="displayed-img" src="images/pic1.jpg"> --><br>
-  <!-- <div class="overlay"></div> --><br>
-  <!-- <button class="dark">Darken</button> --><br>
-<!-- </div> --><br>
+<div class="full-img">
+  <img class="displayed-img" src="images/pic1.jpg">
+  <div class="overlay"></div>
+  <button class="dark">Darken</button>
+</div>
 
-<!-- <div class="thumb-bar"> --><br>
+<div class="thumb-bar">
 
-<!-- </div> --><br>
+</div>
 
 The most interesting parts of the example's CSS file:<br>
 
