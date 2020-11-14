@@ -2,6 +2,7 @@
 function ChangeDisplayImage(e) {
   var imagePath = e.target.src
   displayedImage.src = imagePath
+  displayedImageLink.href = imagePath
 }
 
 // Change text of the button and alpha(rgba) of the overlay
@@ -27,6 +28,7 @@ function ChangeButton(e) {
 // Loop through images in directory
 
 const displayedImage = document.querySelector('.displayed-img')
+const displayedImageLink = document.querySelector('.displayed-link')
 const thumbBar = document.querySelector('.thumb-bar')
 const numberOfImages = 5
 var count = 1 // Initialize
@@ -35,7 +37,7 @@ while( count <= numberOfImages ) {
   // Create containers for image name and file path
   var imgName = 'pic' + count
   var filePath = 'images/' + imgName + '.jpg'
-
+  
   // Create html img element
   const newImage = document.createElement('img')
   newImage.setAttribute('src', filePath)
